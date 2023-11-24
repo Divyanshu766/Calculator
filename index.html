@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/querys.css">
+  </head>
+  <body>
+    <!-- <input type="text" >
+    <button value="1">btn</button> -->
+
+    <main class="main">
+      <!-------------------HEADER------------------------------>
+      <header class="header">
+        <ion-icon class="logo-icon" name="calculator-outline"></ion-icon>
+        <h1 class="logo-name">Calculator</h1>
+      </header>
+      <!--------------------SCREEN----------------------------->
+      <div class="screen">
+        <input type="text" />
+      </div>
+
+      <div class="clean">
+        <button class="btn btn-clean" onclick="cln()">Clean</button>
+        <button class="btn btn-clean" onclick="dlt()">Delete</button>
+      </div>
+
+      <!-- -------------------------Body/Buttons--------------------------- -->
+      <div class="buttons">
+        <button class="btn" onclick="Valueadd('1')">1</button>
+        <button class="btn" onclick="Valueadd('2')">2</button>
+        <button class="btn" onclick="Valueadd('3')">3</button>
+        <button class="btn" onclick="Valueadd('/')">/</button>
+        <button class="btn" onclick="Valueadd('4')">4</button>
+        <button class="btn" onclick="Valueadd('5')">5</button>
+        <button class="btn" onclick="Valueadd('6')">6</button>
+        <button class="btn" onclick="Valueadd('*')">*</button>
+        <button class="btn" onclick="Valueadd('7')">7</button>
+        <button class="btn" onclick="Valueadd('8')">8</button>
+        <button class="btn" onclick="Valueadd('9')">9</button>
+        <button class="btn" onclick="Valueadd('-')">-</button>
+        <button class="btn" onclick="Valueadd('0')">0</button>
+        <button class="btn" onclick="Valueadd('.')">.</button>
+        <button class="btn btn-equal" onclick="result()" value="=">=</button>
+        <button class="btn" onclick="Valueadd('+')" value="+">+</button>
+      </div>
+    </main>
+  </body>
+  <script src="/script.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>

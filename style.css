@@ -1,0 +1,112 @@
+/***********General**********/
+
+html {
+  font-size: 62.5%;
+  font-family: "Orbitron", "sans-serif";
+}
+
+body {
+  position: relative;
+}
+
+.main {
+  position: absolute;
+  left: calc(50% - 20rem);
+  top: 3rem;
+  width: 40rem;
+  height: 50rem;
+  border: 4px solid #ff7b54;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/*************hEADER*************/
+.header {
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+  background-color: #ff7b54;
+}
+
+.logo-icon {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+.logo-name {
+  font-weight: 900;
+  color: #fff;
+}
+
+/* ******** Screen***********/
+.screen {
+  margin-top: 1rem;
+}
+
+input {
+  width: 37rem;
+  border: 2px solid #555;
+  height: 4rem;
+  margin-left: 0.9rem;
+  font-family: "orbitrom";
+  font-size: 1.7rem;
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.429);
+}
+
+.clean {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.btn-clean {
+  font-size: 3rem;
+  width: 17rem !important;
+  border-color: #fda769 !important;
+}
+
+.btn-clean:hover {
+  background-color: #fda769 !important;
+  color: #fff !important;
+}
+
+/* ----------------Buttons--------------- */
+.buttons {
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 4rem;
+  row-gap: 4rem;
+}
+
+.btn {
+  height: 4rem;
+  font-family: "orbitron";
+  font-weight: 900;
+  font-size: 1.5rem;
+  border: 2px solid #444;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.441);
+  background-color: #fff;
+}
+
+.btn:hover,
+.main-btn:hover {
+  color: #fff;
+  border-color: #333;
+  background-color: #fda769;
+}
+
+.btn-equal {
+  background-color: #ff7b54;
+  border-color: #333;
+  color: #fff;
+}
